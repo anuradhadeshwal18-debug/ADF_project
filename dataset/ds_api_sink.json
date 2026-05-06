@@ -1,0 +1,21 @@
+{
+	"name": "ds_api_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sink_api",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "dimairline.json",
+				"folderPath": "github",
+				"fileSystem": "destination"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

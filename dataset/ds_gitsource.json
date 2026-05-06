@@ -1,0 +1,21 @@
+{
+	"name": "ds_gitsource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sqldatalake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "dimairline.json",
+				"folderPath": "git",
+				"fileSystem": "bronze"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

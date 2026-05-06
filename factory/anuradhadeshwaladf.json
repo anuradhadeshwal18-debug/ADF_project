@@ -1,0 +1,15 @@
+{
+	"name": "anuradhadeshwaladf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "13818e32-36bc-4ccf-9083-fd1251b414ab",
+		"tenantId": "79c9810a-4113-4456-a4ae-a1d9bd80840e"
+	}
+}
